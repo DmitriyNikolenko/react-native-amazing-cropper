@@ -90,29 +90,13 @@ const Cropper = (props) => (
           <View style={[styles.borderDesign, { borderLeftWidth: 3, borderTopWidth: 3 }]} />
         </View>
         <View style={styles.gridColumn}>
-          <View style={[styles.borderDesign, { borderTopWidth: 3, alignSelf: 'center' }]} />
-        </View>
-        <View style={styles.gridColumn}>
           <View style={[styles.borderDesign, { borderTopWidth: 3, borderRightWidth: 3, alignSelf: 'flex-end' }]} />
-        </View>
-      </View>
-
-      <View style={styles.gridRow} >
-        <View style={[styles.gridColumn, { flexDirection: 'row' }]}>
-          <View style={[styles.borderDesign, { borderLeftWidth: 3, alignSelf: 'center' }]} />
-        </View>
-        <View style={styles.gridColumn} />
-        <View style={[styles.gridColumn, { justifyContent: 'center' }]}>
-          <View style={[styles.borderDesign, { borderRightWidth: 3, alignSelf: 'flex-end' }]} />
         </View>
       </View>
 
       <View style={styles.gridRow} >
         <View style={[styles.gridColumn, { justifyContent: 'flex-end' }]}>
           <View style={[styles.borderDesign, { borderLeftWidth: 3, borderBottomWidth: 3 }]} />
-        </View>
-        <View style={[styles.gridColumn, { justifyContent: 'flex-end' }]}>
-          <View style={[styles.borderDesign, { borderBottomWidth: 3, alignSelf: 'center' }]} />
         </View>
         <View style={[styles.gridColumn, { justifyContent: 'flex-end' }]}>
           <View style={[styles.borderDesign, { borderRightWidth: 3, borderBottomWidth: 3, alignSelf: 'flex-end' }]} />
